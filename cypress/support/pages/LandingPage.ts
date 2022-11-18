@@ -3,9 +3,6 @@ class LandingPage{
     invokeApp():void{
         cy.visit('/');
     }
-    verifyBankName():void{
-        cy.contains('XYZ Bank').should('be.visible');
-    }
 
     loggingAsBankManager():void{
 

@@ -9,7 +9,7 @@ describe('LandingPage Tets',()=>{
     })
 
     it('Verify LandingPage BankName',()=>{
-       LandingPage.verifyBankName();
+         BasePage.verifyBankName();
     })
 
     it('Verify LandingPage HomeButton',()=>{
