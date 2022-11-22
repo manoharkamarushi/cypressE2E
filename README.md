@@ -1,2 +1,2 @@
 # cypressE2E
-cypress e2e framework development 
+cypress e2e framework development

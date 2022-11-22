@@ -4,5 +4,5 @@
       "lib": ["es5", "dom"],
       "types": ["cypress", "node","cypress-xpath"] 
     },
-    "include": ["**/*.ts"]
+    "include": ["**/*.ts", "cypress/e2e/HandlingComplexWebElements.cy.js"]
   }

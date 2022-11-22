@@ -4,7 +4,8 @@
   "description": "cypress E2E test project",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --spec cypress/e2e/managerRoleTests/CustomerPageTests.cy.ts"
+    "test": "npx cypress run --spec cypress/e2e/managerRoleTests/BankManagerHomePageTests.cy.ts ",
+    "ManagerRoleTests":"npx cypress run --spec cypress/e2e/managerRoleTests/BankManagerHomePageTests.cy.ts"
   },
   "author": "Manohar",
   "license": "ISC",
