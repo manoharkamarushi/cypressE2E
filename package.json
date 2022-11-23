@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run --spec cypress/e2e/managerRoleTests/BankManagerHomePageTests.cy.ts ",
-    "ManagerRoleTests":"npx cypress run --spec cypress/e2e/managerRoleTests/BankManagerHomePageTests.cy.ts"
+    "ManagerRoleTests": "npx cypress run --spec cypress/e2e/managerRoleTests/BankManagerHomePageTests.cy.ts"
   },
   "author": "Manohar",
   "license": "ISC",
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.2",
     "@cypress/xpath": "^2.0.3",
     "@faker-js/faker": "^7.6.0",
     "@types/mocha": "^10.0.0",

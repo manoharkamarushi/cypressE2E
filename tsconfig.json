@@ -2,7 +2,7 @@
     "compilerOptions": {
       "target": "es5",
       "lib": ["es5", "dom"],
-      "types": ["cypress", "node","cypress-xpath"] 
+      "types": ["cypress", "node","cypress-xpath","@4tw/cypress-drag-drop"] 
     },
-    "include": ["**/*.ts", "cypress/e2e/HandlingComplexWebElements.cy.js"]
+    "include": ["**/*.ts", "cypress/e2e/HandlingWebELements/HandlingComplexWebElements.cy.js"]
   }
